@@ -1,7 +1,7 @@
 body {
     display: grid;
     grid-template-columns: 1fr 6fr;
-    grid-template-rows: 2fr 1fr;
+    grid-template-rows: 2fr 6fr;
 }
 .sidebar {
     background-color: rgb(1, 135, 219);
@@ -29,6 +29,7 @@ body {
     display: flex;
     flex-direction: column;
     grid-area: 1/2/2/3;
+    box-shadow: 10px 5px 5px black;
 }
 .searchBar{
     display: flex;
@@ -40,6 +41,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 30px;
 }
 
 #greeting{
@@ -54,4 +56,63 @@ h1 {
 
 body {
     margin: 0px;
+}
+
+.mainWrapper {
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.projectWrapper {
+    grid-area: 1/1/2/2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 1fr 1fr 1fr;
+}
+
+#projectHeader{
+    grid-area: 1/1/2/3;
+    margin: 20px;
+}
+
+.projectCard {
+    background-color: white;
+    border-radius: 5px;
+    margin: 15px;
+    border-left-color: rgb(255, 208, 0);
+    border-right-color: white;
+    border-style: solid;
+    border-width: 8px;
+    box-shadow: 1px 2px 5px rgba(58, 57, 57, 0.418);
+    border-top: none;
+    border-bottom: none;
+}
+
+#globalCard {
+    border-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.feedPost {
+    border-bottom: .5px;
+    border-color: lightgray;
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    margin: 5px;
+}
+.feedPost > p {
+    margin: 3px;
+    margin-bottom: 15px;
+}
+.feedPost > h3 {
+    margin: 0px;
+}
+.globalFeedWrapper {
+    display: flex;
+    flex-direction: column;
 }
