@@ -9,49 +9,45 @@
 </head>
 <body>
     <div class="sidebar">
-        <h1>Dashboard</h1>
+        <div class="sideTitle"><img src="dashboard_white_48dp.svg"><h1>Dashboard</h1></div>
         <nav class="navSidebar">
-            <a>Home</a>
-            <a>Profile</a>
-            <a>Messages</a>
-            <a>History</a>
-            <a>Tasks</a>
-            <a>Communities</a>
+            <div class="navLink"><img src="home_white_24dp.svg"> <a>Home</a></div>
+            <div class="navLink"><img src="account_box_white_24dp.svg"> <a>Profile</a></div>
+            <div class="navLink"><img src="chat_bubble_white_24dp.svg"> <a>Messages</a></div>
+            <div class="navLink"><img src="watch_later_white_24dp.svg"> <a>History</a></div> 
+            <div class="navLink"><img src="task_white_24dp.svg"> <a>Tasks</a></div> 
+            <div class="navLink"><img src="groups_white_24dp.svg"> <a>Communities</a></div> 
         </nav>
         <nav class="settingsSidebar">
-            <a>Settings</a>
-            <a>Support</a>
-            <a>Privacy</a>
+            <div class="navLink"><img src="settings_white_24dp.svg"> <a>Settings</a></div>
+            <div class="navLink"><img src="help_center_white_24dp.svg"> <a>Support</a></div>
+            <div class="navLink"><img src="verified_user_white_24dp.svg"> <a>Privacy</a></div>
         </nav>
     </div>
 
     <div class="userWrapper">
         <div class="searchBar">
-
-            <div>
-                <i>magnifying glass</i>
-                <input type="text" placeholder="Search">
-            </div>
-
-            <div>
-                <i>bell</i>
-                <i>usericon</i>
-                <b>Morgan Oakley</b>
-            </div> 
+            <img src="search_black_24dp.svg">
+            <input type="text">
         </div>
 
-        <div class="postBar">
-            <div id="greeting">
-                <i>avatar</i>
-                <b>Hi there, Morgan Oakley(@Morgan)</b>
-            </div>
-            <div class="postButtons">
-                <button>New</button>
-                <button>Upload</button>
-                <button>Share</button>
-            </div>
+        <div class="currentUser">
+            <img src="notifications_none_black_24dp.svg">
+            <img src="icons8-circled-user-male-skin-type-3-48.png">
+            <b>Morgan Oakley</b>
+        </div> 
+
+        <div id="greeting">
+            <img src="icons8-circled-user-male-skin-type-3-96.png">
+            <b>Hi there,<br> Morgan Oakley (@Morgan)</b>
+        </div>
+
+        <div class="postButtons">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+        </div>
             
-        </div>
         
 
     </div>
@@ -59,17 +55,82 @@
     <div class="mainWrapper">
         <div class="projectWrapper">
             <h2 id="projectHeader">Your Projects</h2>
-            <div class="projectCard"></div>
-            <div class="projectCard"></div>
-            <div class="projectCard"></div>
-            <div class="projectCard"></div>
-            <div class="projectCard"></div>
-            <div class="projectCard"></div>
+            <div class="projectCard">
+                <div>
+                    <h2>Super Cool Project</h2>
+                    <p>Nisl vel pretium lectus quam id leo in vitae turpis. Vestibulum rhoncus est pellentesque elit. Tellus molestie nunc non blandit massa enim nec. Vitae nunc sed velit dignissim sodales ut eu sem integer. Pulvinar mattis nunc sed blandit libero volutpat sed.</p>
+                </div>
+                
+                <div class="cardEdit">
+                    <img src="star_border_black_24dp.svg">
+                    <img src="visibility_black_24dp.svg">
+                    <img src="share_black_24dp.svg">
+                </div>
+            </div>
+            <div class="projectCard">
+                <div>
+                    <h2>Less Cool Project</h2>
+                    <p>Cras adipiscing enim eu turpis egestas. Et netus et malesuada fames ac. Scelerisque varius morbi enim nunc faucibus a pellentesque. Consectetur a erat nam at lectus. Mauris pharetra et ultrices neque ornare aenean euismod elementum nisi.</p>
+                </div>
+                
+                <div class="cardEdit">
+                    <img src="star_border_black_24dp.svg">
+                    <img src="visibility_black_24dp.svg">
+                    <img src="share_black_24dp.svg">
+                </div>
+            </div>
+            <div class="projectCard">
+                <div>
+                    <h2>Impossible App</h2>
+                    <p>Ultrices eros in cursus turpis massa tincidunt dui ut ornare. Quam pellentesque nec nam aliquam sem et tortor consequat. Eu consequat ac felis donec. Enim ut tellus elementum sagittis vitae et leo. Quam quisque id diam vel quam elementum pulvinar etiam. Nibh tellus molestie nunc non blandit massa.</p>
+                </div>
+                <div class="cardEdit">
+                    <img src="star_border_black_24dp.svg">
+                    <img src="visibility_black_24dp.svg">
+                    <img src="share_black_24dp.svg">
+                </div>
+            </div>
+            <div class="projectCard">
+                <div>
+                    <h2>Easy Peasy App</h2>
+                    <p>Morbi tempus iaculis urna id volutpat lacus laoreet. Mus mauris vitae ultricies leo integer malesuada nunc. Risus quis varius quam quisque id diam vel quam. Nulla facilisi etiam dignissim diam quis enim. Eget nullam non nisi est sit amet facilisis.</p>
+                </div>
+                <div class="cardEdit">
+                    <img src="star_border_black_24dp.svg">
+                    <img src="visibility_black_24dp.svg">
+                    <img src="share_black_24dp.svg">
+                </div> 
+            </div>
+            
+            
+            <div class="projectCard">
+                <div>
+                    <h2>Ad Blocker</h2>
+                    <p>Tellus mauris a diam maecenas sed enim ut. Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt. Amet consectetur adipiscing elit duis tristique sollicitudin. Lectus mauris ultrices eros in. In iaculis nunc sed augue lacus viverra vitae congue eu. Velit egestas dui id ornare arcu odio ut sem nulla.</p>
+                </div>
+                <div class="cardEdit">
+                    <img src="star_border_black_24dp.svg">
+                    <img src="visibility_black_24dp.svg">
+                    <img src="share_black_24dp.svg">
+                </div> 
+            </div>
+            
+            <div class="projectCard">
+                <div>
+                    <h2>Money Maker</h2>
+                    <p>Aliquam purus sit amet luctus venenatis lectus. Dictum at tempor commodo ullamcorper a lacus vestibulum sed. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Enim nulla aliquet porttitor lacus luctus accumsan.</p>
+                </div>
+                <div class="cardEdit">
+                    <img src="star_border_black_24dp.svg">
+                    <img src="visibility_black_24dp.svg">
+                    <img src="share_black_24dp.svg">
+                </div> 
+            </div>
         </div>
         <div class="globalFeedWrapper">
             <div id="announcements">
                 <h2>Announcements</h2>
-                <div class="projectCard" id="globalCard">
+                <div class="projectCard" id="announcementCard">
                     <div class="feedPost">
                         <h3>Site Maintenance</h3>
                         <p>Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Deonec hendreit sdales congrue...</p>
@@ -86,8 +147,54 @@
             </div>
             <div id="trending">
                 <h2>Trending</h2>
-                <div class="projectCard" id="globalCard">
-
+                <div class="projectCard" id="trendingCard">
+                    <div class="trendingAvatar">
+                        <div><img src="icons8-avatar-367.png"></div>
+                        <div><img src="icons8-avatar-67.png"></div>
+                        <div><img src="icons8-avatar1-67.png"></div>
+                        <div><img src="icons8-avatar2-67.png"></div>
+                    </div>
+                    <div class="trendingInfo">
+                        <a href="placeholder">@tegan</a>
+                        <br>
+                        <small>World Peace Builder</small>
+                    </div>
+                    <div class="trendingAvatar">
+                        <icon></icon>
+                        <icon></icon>
+                        <icon></icon>
+                        <icon></icon>
+                    </div>
+                    <div class="trendingInfo">
+                        <a href="placeholder">@morgan</a>
+                        <br>
+                        <small>Super Cool Project</small>
+                    </div>
+                    <div class="trendingAvatar">
+                        <icon></icon>
+                        <icon></icon>
+                        <icon></icon>
+                        <icon></icon>
+                    </div>
+                    <div class="trendingInfo">
+                        <a href="placeholder">@kendall</a>
+                        <br>
+                        <small>Life Changing App</small>
+                    </div>
+                    <div class="trendingAvatar">
+                        <icon></icon>
+                        <icon></icon>
+                        <icon></icon>
+                        <icon></icon>
+                    </div>
+                    <div class="trendingInfo">
+                        <a href="placeholder">@alex</a>
+                        <br>
+                        <small>No Traffic Maker</small>
+                    </div>
+                    
+                    
+                        
                 </div>
             </div>
         </div>
